@@ -7,19 +7,22 @@
 </head>
 <body>
     <h1>HTML Forms</h1>
-    <input type="text">
+    <input type="text" placeholder="Enter your name">
     <input type="button" value="Login">
     <input type="checkbox">
     <input type="color"
 >
 <br>
+<fieldset>
+    <legend>Application form 01</legend>
+
     <input type="datetime-local">
     <br>
     <input type="email">
     <br>
     <input type="file">
     <br>
-    <input type="month">
+    <input type="month" style="background-color: plum;">
     <br>
    
     <input type="search">
@@ -30,11 +33,15 @@
     <br>    
     
     <input type="week">
-    <fieldset>
+</fieldset>
+    
+    <br>    
+    
+    <fieldset style="background-color: bisque; border-radius: 10px; width: 300px; height: 300px;">
         <legend>Application form</legend>
-         <input type="number">
+         <input type="number" placeholder="Enter your number">
     <br>
-    <input type="password">
+    <input type="password" placeholder="Enter your password">
     <br>
     <input type="radio">
     <br>
@@ -42,7 +49,13 @@
     <br>
     <input type="reset">
     <br>
-
+    <select name="cars" id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+    </select>
+    <br>
     </fieldset>
 
 
