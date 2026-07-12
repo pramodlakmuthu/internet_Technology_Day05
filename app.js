@@ -1,7 +1,7 @@
-let name ="pramod lakmuthu";
-let age =22;
- name="mahinda rajapaksha ";
-console.log(name);
-
-console.log(age);
-console.log(name);
+let x=5;
+let y="5";
+console.log(x==y);
+let numbers=[1,2,3,4,5];
+for(let i=0;i<numbers.length;i++){
+    console.log(numbers[i]);
+}
